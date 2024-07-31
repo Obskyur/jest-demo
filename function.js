@@ -6,8 +6,7 @@ export function sayHello(firstName, lastName) {
 export function checkNumber(pass) {
   if (typeof pass === 'string') {
     let regex = /\d/;
-    return regex.test(pass); // the regex.test() method will return true if the passed string matches the regexp
-
+    return regex.test(pass); // the regex.test() method will return true if the passed string matches the regex
     }
 }
 
@@ -23,5 +22,3 @@ export function checkSymbol(pass) {
 export function checkPass(pass) {
   return checkNumber(pass) && checkSymbol(pass);
 }
-
-// module.exports = {sayHello, checkNumber, checkSymbol, checkPass}; // export the functions to be used in the test file
