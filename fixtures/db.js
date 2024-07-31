@@ -1,4 +1,4 @@
-export const user = {
+export const _user = {
   name: 'Wendy Webberton',
   about: 'Super Web Development',
   password: '1234QWer$',
